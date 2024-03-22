@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+/* ----------------------------------about page css----------------------- */
+.about-page{
+    background: rgb(65,53,53);
+background: linear-gradient(90deg, rgba(65,53,53,1) 0%, rgba(189,139,52,1) 50%, rgba(65,53,53,1) 100%);
+}
+.fa-arrow-up{
+    color: #bd8b34;
+}
+.fix-btn{
+   background: none;
+}
+.exit-btn{
+    background-color: #bd8b34;
+}
+/* --------------------------------------------------------------------- */
+
+.img-dv {
+    background:rgba(0, 0, 0, 0.6) url(img/360_F_571762531_uupDdpj93rLPrIxiWFfhvdRjWW7a9Iid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+.win{
+    padding-bottom: 70px;
+}
+.tog-list ul li{
+list-style: none; 
+padding-top: 10px; 
+
+}
+.tog-list{
+    position:absolute;
+    left: 0px;
+    transform:scaleX(0);
+   transform-origin: right;
+   transition-duration: 1s;
+}
+.tog-div:hover .tog-list{
+    transform:scaleX(1);
+    cursor: pointer;
+}
+.tog-div:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.ho{
+    color: #bd8b34;
+}
+.btn1{
+    background-color:   #cca35d;;
+}
+.btn1:hover{
+    color: white;
+    background-color: #bd8b34;
+}
+a:hover{
+    color: #bd8b34;
+    font-weight: 200px;
+}
+.main-h{
+    font-weight: 650;
+    font-size: 50px;
+}
+.about-h{
+    border-bottom: 3px solid #bd8b34;
+}
+.exper-heading{
+   border: 3px solid #bd8b34;
+   background-color: white;
+   position:absolute ;
+   top: 20px;
+   left:330px;
+}
+.abot{
+margin-top: 85px;
+}
+.exper-heading:hover{
+    background-color: #cca35d;
+    color: white;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.slider-bg{
+    background-color: #cca35d;
+    height: 150px;
+}
+.icon-di i{
+    color: #bd8b34;
+    padding: 30px;
+    background-color: black;
+    border-radius: 50%;
+    font-size:xx-large;
+    border: 1px solid;
+}
+.icon-di:hover i{
+    background-color: white;
+    color: #bd8b34;
+    border: 1px solid #bd8b34;
+    transform: rotate(360deg);
+    transition: 3s;
+}
+.icon-di:hover{
+    transform:translateY(3px);
+    transition: 2s;
+    
+}
+.contact-bg{
+    background:rgba(0, 0, 0, 0.5) url(img/law3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 750px;
+}
+.contact-bg-color{
+    background: rgba(189, 139, 52, .7);
+}
+.btn2{
+    background-color: #bd8b34;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.btn2:hover{
+    border-color: #bd8b34;
+    background-color: white;
+    color:#bd8b34;
+    }
+.wh{
+    height: 700px;
+}
+.chose-h{
+   background-color: #bd8b34;
+   color: white;
+}
+.chose-div:hover .chose-h{
+    background-color: white;
+    border: 1px solid #bd8b34;
+    color: #151519;
+}
+@media (min-width: 992px) {
+    .feature1 {
+        
+        transform: translateX(-60px);
+    }
+}
+.cal-bg{
+    background: rgba(0, 0, 0, 0.6) url(img/law2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 600px;
+}
+.slider{
+    height: 550px;
+    margin-top: 80px;
+    background-color: #cca35d;
+}
+
+.fotdiv{
+    background-color: #151519;
+}
+.fot-icon i{
+    color: #bd8b34;
+    font-size: xx-large;
+}
+
+.fotdiv:hover .fot-info p{
+    color: #bd8b34;
+}
+.fot-social-icon a{
+    padding: 10px;
+    font-size: xx-large;
+    border: 1px solid #bd8b34;
+    border-radius: 10px;
+}
+.fot-link i,h5{
+    color: #bd8b34;
+}
+
+.fot-link a:hover {
+    text-decoration: underline;
+}
+.fa-award{
+    color: #bd8b34;
+   font-size: 70px;
+}
