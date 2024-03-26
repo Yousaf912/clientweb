@@ -49,6 +49,9 @@ padding-top: 10px;
 .tog-div:hover{
     cursor: pointer;
 }
+#gr:hover{
+color: #151519;
+}
 
 a{
     text-decoration: none;
@@ -59,7 +62,7 @@ a{
     color: #bd8b34;
 }
 .btn1{
-    background-color:   #cca35d;;
+    background-color:   #bd8b34;;
 }
 .btn1:hover{
     color: white;
